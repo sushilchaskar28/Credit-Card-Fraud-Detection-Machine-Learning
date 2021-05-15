@@ -1,0 +1,101 @@
+Method 1: training using Naive Bayes....
+For dataset 1, f-measure score is: 0.9174917491749175
+using classifier on remaining test dataset
+For dataset 2, f-measure score is: 0.9217391304347826
+For dataset 3, f-measure score is: 0.9217391304347826
+For dataset 4, f-measure score is: 0.9279538904899134
+For dataset 5, f-measure score is: 0.9217391304347826
+For train dataset, f-measure score is: 0.9852713074818126
+For test dataset, f-measure score is: 0.9843947655985057
+
+testing on complete dataset
+For original dataset, f-measure score is: 0.9849807083480564
+
+-----------------------------------------------------------------------------------------
+
+Method 2: training using logistic regression....
+For dataset 1, f-measure score is: 0.9477351916376308
+With feature scalling, f-measure score is: 0.9415807560137458
+
+using classifier on remaining test dataset with feature scaling
+For dataset 2, f-measure score is: 0.9452054794520548
+For dataset 3, f-measure score is: 0.9381746810598627
+For dataset 4, f-measure score is: 0.9421000981354269
+For dataset 5, f-measure score is: 0.9452054794520548
+testing on original dataset
+For original dataset, f-measure score is: 0.2709625629424214
+
+Implement PCA for dimentionality reduction...
+For dataset 1, f-measure score is: 0.9319727891156463
+testing on original dataset
+For original dataset, f-measure score is: 0.18893991604935123
+
+weighted Logistic Regression for better output
+For train dataset, f-measure score is: 0.9982817507168157
+For test dataset, f-measure score is: 0.9982530200451346
+
+testing on complete dataset
+For original dataset, f-measure score is: 0.9982810425054509
+
+-------------------------------------------------------------------------------------------
+
+Method 3: training using Support Vector Machine....
+As data is unbalanced, we will implement Weightage SVM
+For train dataset, f-measure score is: 0.9993550136500173
+For test dataset, f-measure score is: 0.9991937537129761
+
+testing on complete dataset
+For original dataset, f-measure score is: 0.9993085672563492
+
+-------------------------------------------------------------------------------------------
+
+Method 4: training using Random Forest....
+For dataset 1, f-measure score is: 0.9551282051282052
+
+using classifier on remaining test datasets
+For dataset 2, f-measure score is: 0.9382239382239382
+For dataset 3, f-measure score is: 0.9361702127659575
+For dataset 4, f-measure score is: 0.9341085271317828
+For dataset 5, f-measure score is: 0.9361702127659575
+For train dataset, f-measure score is: 0.9935948525809911
+For test dataset, f-measure score is: 0.9937060624486618
+
+testing on complete dataset
+For original dataset, f-measure score is: 0.9936317453689041
+
+feature selection
+For dataset 1, f-measure score after feature selection is: 0.9514563106796117
+testing on original dataset
+For train dataset, f-measure score is: 0.9900570748349932
+For test dataset, f-measure score is: 0.9897718753346899
+
+testing on complete dataset
+For original dataset, f-measure score is: 0.9899624925411303
+
+-------------------------------------------------------------------------------------------
+
+Method 5: training using XGBoost....
+For dataset 1, f-measure score is: 0.949685534591195
+
+using classifier on remaining test datasets
+For dataset 2, f-measure score is: 0.9775967413441955
+For dataset 3, f-measure score is: 0.9617373319544984
+For dataset 4, f-measure score is: 0.9595854922279792
+For dataset 5, f-measure score is: 0.9638802889576884
+For train dataset, f-measure score is: 0.9767161317597134
+For test dataset, f-measure score is: 0.9777204515524147
+
+testing on complete dataset
+For original dataset, f-measure score is: 0.9770494988235124
+
+feature selection
+For dataset 1, f-measure score after feature selection is: 0.9595015576323987
+testing on original dataset
+For train dataset, f-measure score is: 0.9764347491158654
+For test dataset, f-measure score is: 0.9761506730351716
+
+testing on complete dataset
+For original dataset, f-measure score is: 0.976340532162511
+
+
+
