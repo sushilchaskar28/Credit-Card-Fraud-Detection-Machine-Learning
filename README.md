@@ -11,6 +11,4 @@ Models are:
 4. Random Forest Classifier (random_forest.py)
 5. Gradient Boosting Classifier (xgboost.py)
 
-Dataset file should be placed in the same folder as code files. 
-
 Also included a log file (RUN_LOG.txt) containing results of a single run of all classification models.
